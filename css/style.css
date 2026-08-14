@@ -1,3 +1,8 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
 :root {
 
     --background: #E4EEF5;
