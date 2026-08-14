@@ -1,83 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sathish Kanthi</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg-blue: #E4EEF5;
-      --heading-rust: #B5623A;
-      --subtitle-ink: #3A3A38;
-      --near-black: #1B1B19;
-      --card-bg: #FFFFFF;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--bg-blue);
-      color: var(--near-black);
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      text-align: center;
-      padding: 20px;
-    }
-    .wrap {
-      position: relative;
-      max-width: 520px;
-    }
-    .logo-badge {
-      width: 64px;
-      height: 64px;
-      margin: 0 auto 20px;
-      border-radius: 50%;
-      background: var(--card-bg);
-      border: 2.5px solid var(--heading-rust);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: "Lora", serif;
-      font-weight: 700;
-      font-size: 22px;
-      color: var(--near-black);
-    }
-    h1 {
-      font-family: "Lora", serif;
-      font-weight: 700;
-      font-size: 2.6rem;
-      letter-spacing: -0.01em;
-      color: var(--heading-rust);
-      margin: 0 0 10px;
-    }
-    p {
-      font-family: "Lora", serif;
-      font-style: italic;
-      font-size: 1.1rem;
-      color: var(--subtitle-ink);
-      margin: 0 0 6px;
-    }
-    .status {
-      font-family: "Inter", sans-serif;
-      font-style: normal;
-      font-size: 0.85rem;
-      color: #888;
-      margin-top: 18px;
-      letter-spacing: 0.02em;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sathish Kanthi | AI Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:wght@400;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="wrap">
-    <div class="logo-badge">SK</div>
-    <h1>Sathish Kanthi</h1>
-    <p>AI Engineer · Generative AI, RAG &amp; Agentic AI Applications</p>
-    <div class="status">Building something here — check back soon.</div>
-  </div>
+
+    <button class="menu-button">☰</button>
+
+    <nav class="sidebar">
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#certifications">Certifications</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <main>
+
+        <section id="home">
+
+            <div class="hero">
+
+                <h1>Sathish Kanthi</h1>
+
+                <h2>AI Engineer</h2>
+
+                <p>
+                    Generative AI • RAG • Agentic AI Applications
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I specialize in Generative AI,
+                Retrieval-Augmented Generation (RAG),
+                and Agentic AI applications.
+            </p>
+
+            <p>
+                My focus is building intelligent systems
+                using LLMs, semantic search,
+                vector databases, and LangChain.
+            </p>
+
+        </section>
+
+        <section id="experience">
+
+            <h2>Experience</h2>
+
+            <div class="card">
+
+                <h3>AI Engineer Intern</h3>
+
+                <p>iPlairani.AI</p>
+
+                <ul>
+                    <li>Built enterprise RAG applications</li>
+                    <li>Developed multi-step AI agents</li>
+                    <li>Built vector retrieval pipelines</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Machine Learning Intern</h3>
+
+                <p>Fly-Rank.AI</p>
+
+                <ul>
+                    <li>Built NLP pipelines</li>
+                    <li>Worked on search intelligence</li>
+                    <li>Developed ML data pipelines</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <div class="card">
+
+                <h3>Vidya Jyothi Institute of Technology</h3>
+
+                <p>B.Tech in Artificial Intelligence</p>
+
+                <p>CGPA: 8.19</p>
+
+            </div>
+
+        </section>
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <div class="card">
+
+                <h3>Real-Time Emotion Detection System</h3>
+
+                <p>
+                    CNN + RNN + OpenCV + Speech Recognition
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Intelligent Fraud Detection System</h3>
+
+                <p>
+                    XGBoost + Random Forest + SMOTE
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="certifications">
+
+            <h2>Certifications</h2>
+
+            <ul>
+
+                <li>NVIDIA</li>
+
+                <li>AWS Academy</li>
+
+                <li>GreatLearning</li>
+
+                <li>Hexart.ai</li>
+
+                <li>IIT Bombay</li>
+
+            </ul>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>Email: Kanthi.sathish777@gmail.com</p>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
