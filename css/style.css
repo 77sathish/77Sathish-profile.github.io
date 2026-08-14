@@ -236,3 +236,20 @@ section {
     pointer-events: none;
 
 }
+.profile-photo img {
+
+    width: 180px;
+
+    height: 180px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 5px solid white;
+
+    margin-bottom: 40px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+}
