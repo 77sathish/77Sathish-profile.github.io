@@ -141,10 +141,30 @@ section {
 
 .hero {
 
+    position: relative;
+
     text-align: center;
 
     padding-top: 20vh;
 
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(228, 238, 245, 0.82),
+            rgba(228, 238, 245, 0.82)
+        ),
+        url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    border-radius: 20px;
+
+}
 }
 
 .hero h1 {
